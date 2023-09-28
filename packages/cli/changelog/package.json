@@ -1,4 +1,4 @@
 {
-  "main": "dist/changesets-cli-changelog.cjs.js",
-  "module": "dist/changesets-cli-changelog.esm.js"
+  "main": "dist/wuxh-changesets-cli-changelog.cjs.js",
+  "module": "dist/wuxh-changesets-cli-changelog.esm.js"
 }

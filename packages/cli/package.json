@@ -1,6 +1,6 @@
 {
-  "name": "@changesets/cli",
-  "version": "2.26.2",
+  "name": "@wuxh/changesets-cli",
+  "version": "2.26.2-fork.01",
   "description": "Organise your package versioning and publishing to make both contributors and maintainers happy",
   "bin": {
     "changeset": "bin.js"
@@ -13,35 +13,35 @@
     "changelog",
     "commit"
   ],
-  "main": "dist/changesets-cli.cjs.js",
-  "module": "dist/changesets-cli.esm.js",
+  "main": "dist/wuxh-changesets-cli.cjs.js",
+  "module": "dist/wuxh-changesets-cli.esm.js",
   "exports": {
     ".": {
       "types": {
-        "import": "./dist/changesets-cli.cjs.mjs",
-        "default": "./dist/changesets-cli.cjs.js"
+        "import": "./dist/wuxh-changesets-cli.cjs.mjs",
+        "default": "./dist/wuxh-changesets-cli.cjs.js"
       },
-      "module": "./dist/changesets-cli.esm.js",
-      "import": "./dist/changesets-cli.cjs.mjs",
-      "default": "./dist/changesets-cli.cjs.js"
+      "module": "./dist/wuxh-changesets-cli.esm.js",
+      "import": "./dist/wuxh-changesets-cli.cjs.mjs",
+      "default": "./dist/wuxh-changesets-cli.cjs.js"
     },
     "./changelog": {
       "types": {
-        "import": "./changelog/dist/changesets-cli-changelog.cjs.mjs",
-        "default": "./changelog/dist/changesets-cli-changelog.cjs.js"
+        "import": "./changelog/dist/wuxh-changesets-cli-changelog.cjs.mjs",
+        "default": "./changelog/dist/wuxh-changesets-cli-changelog.cjs.js"
       },
-      "module": "./changelog/dist/changesets-cli-changelog.esm.js",
-      "import": "./changelog/dist/changesets-cli-changelog.cjs.mjs",
-      "default": "./changelog/dist/changesets-cli-changelog.cjs.js"
+      "module": "./changelog/dist/wuxh-changesets-cli-changelog.esm.js",
+      "import": "./changelog/dist/wuxh-changesets-cli-changelog.cjs.mjs",
+      "default": "./changelog/dist/wuxh-changesets-cli-changelog.cjs.js"
     },
     "./commit": {
       "types": {
-        "import": "./commit/dist/changesets-cli-commit.cjs.mjs",
-        "default": "./commit/dist/changesets-cli-commit.cjs.js"
+        "import": "./commit/dist/wuxh-changesets-cli-commit.cjs.mjs",
+        "default": "./commit/dist/wuxh-changesets-cli-commit.cjs.js"
       },
-      "module": "./commit/dist/changesets-cli-commit.esm.js",
-      "import": "./commit/dist/changesets-cli-commit.cjs.mjs",
-      "default": "./commit/dist/changesets-cli-commit.cjs.js"
+      "module": "./commit/dist/wuxh-changesets-cli-commit.esm.js",
+      "import": "./commit/dist/wuxh-changesets-cli-commit.cjs.mjs",
+      "default": "./commit/dist/wuxh-changesets-cli-commit.cjs.js"
     },
     "./package.json": "./package.json"
   },

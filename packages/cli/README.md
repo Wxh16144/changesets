@@ -1,4 +1,15 @@
-## @changesets/cli 🦋
+# @wuxh/changesets-cli (fork)
+
+来自需求 [#1210](https://github.com/changesets/changesets/pull/1210), 仅先满足个人业务
+From requirement #1210, personal business only first
+
+感谢伟大的开源！
+Thanks for the great open source!
+
+<details>
+  <summary>Origin README.md</summary>
+  
+  ## @changesets/cli 🦋
 
 [![View changelog](https://img.shields.io/badge/changelogs.xyz-Explore%20Changelog-brightgreen)](https://changelogs.xyz/@changesets/cli)
 
@@ -194,3 +205,6 @@ The pre command enters and exits pre mode. The command does not do any actual ve
 ### Bumping peerDependencies
 
 In almost all circumstances, internal packages will be bumped as a patch. The one exception is when the dependency is a `peerDependency`, in which case the change will become a major.
+
+
+</details>

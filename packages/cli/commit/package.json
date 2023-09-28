@@ -1,4 +1,4 @@
 {
-  "main": "dist/changesets-cli-commit.cjs.js",
-  "module": "dist/changesets-cli-commit.esm.js"
+  "main": "dist/wuxh-changesets-cli-commit.cjs.js",
+  "module": "dist/wuxh-changesets-cli-commit.esm.js"
 }
